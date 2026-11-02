@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "event": "login",
+    "user": "Denys"
+  },
+  {
+    "id": 2,
+    "event": "logout",
+    "user": "Denys"
+  },
+  {
+    "id": 3,
+    "event": "registration",
+    "user": "Ivan"
+  }
+]
