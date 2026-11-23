@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello Rails!</title>
+</head>
+<body>
+  <h1>Hello, <%= @stud %>!</h1>
+
+  <p>Це вітання прибуло з app/views/hi/index.html.erb</p>
+  <p>Поточний час: <%= @current_time %></p>
+
+  <h2>Повідомлення з контролера</h2>
+  <% @messages_count.times do |i| %>
+    <p><%= @message %> №<%= i + 1 %></p>
+  <% end %>
+
+  <p>Кількість виведених повідомлень: <%= @messages_count %></p>
+  <p><%= link_to "Перейти до користувачів", users_path %></p>
+</body>
+</html>
